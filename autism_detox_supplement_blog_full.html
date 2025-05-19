@@ -1,9 +1,4 @@
-# Create updated HTML file based on user's detailed content + product links
-from pathlib import Path
-
-html_file = Path("/mnt/data/autism_detox_supplement_blog_full.html")
-
-full_html = """<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -46,95 +41,86 @@ full_html = """<!DOCTYPE html>
 
   <h2>🌿 Chlorella Tincture (Secrets of the Tribe)</h2>
   <img src="chlorella.jpg" alt="Chlorella Tincture">
-  <p><strong>→ Key Benefits:</strong></p>
   <ul>
     <li>Detox support, particularly for heavy metals (mercury, lead, etc.)</li>
     <li>Binds to toxins in the gut and bloodstream</li>
     <li>May reduce neurological inflammation, calming excessive stimming or tantrums linked to internal agitation</li>
   </ul>
   <p><strong>Why it matters for autism:</strong> Chlorella is often used in gentle chelation protocols to support brain detoxification.</p>
-  <p>📦 Product link: https://amzn.to/44LvHFl</p>
+  <p>📦 Product link: <a href="https://amzn.to/44LvHFl" target="_blank">https://amzn.to/44LvHFl</a></p>
 
   <h2>🧽 Wormwood + Black Walnut + Clove Cleanse</h2>
   <img src="wormwood.jpg" alt="Wormwood Cleanse">
-  <p><strong>→ Key Benefits:</strong></p>
   <ul>
     <li>Targets parasites, yeast, and bad gut flora</li>
     <li>Includes Artichoke (liver/gallbladder support) and Chanca Piedra (kidney/stone support)</li>
     <li>May reduce bloating, gas, and GI distress that can lead to meltdowns and hyperactivity</li>
   </ul>
   <p><strong>Why it matters for autism:</strong> Gut dysbiosis can affect mood and behavior regulation. This cleanse supports rebalancing the microbiome.</p>
-  <p>📦 Product link: https://amzn.to/43El7ig</p>
+  <p>📦 Product link: <a href="https://amzn.to/43El7ig" target="_blank">https://amzn.to/43El7ig</a></p>
 
   <h2>🌱 Fennel Fruit Tincture (Naturalma)</h2>
   <img src="fennel.jpg" alt="Fennel Extract">
-  <p><strong>→ Key Benefits:</strong></p>
   <ul>
     <li>Reduces gas and bloating</li>
     <li>Soothes the digestive tract</li>
     <li>Mildly antispasmodic and calming</li>
   </ul>
   <p><strong>Why it matters for autism:</strong> Helps calm the GI system, supporting digestion, sleep, and emotional regulation.</p>
-  <p>📦 Product link: https://amzn.to/4dve6nC</p>
+  <p>📦 Product link: <a href="https://amzn.to/4dve6nC" target="_blank">https://amzn.to/4dve6nC</a></p>
 
   <h2>🧪 Liquid Probiotics with Prebiotic + Ginger Root</h2>
   <img src="probiotics.jpg" alt="Liquid Probiotics">
-  <p><strong>→ Key Benefits:</strong></p>
   <ul>
     <li>Restores gut flora balance (especially after antibiotics or bad diet)</li>
     <li>Ginger helps with nausea and is anti-inflammatory</li>
     <li>Supports immune modulation and neurotransmitter production</li>
   </ul>
   <p><strong>Why it matters for autism:</strong> The gut-brain axis is a key system for behavior, cognition, and mood regulation.</p>
-  <p>📦 Product link: https://amzn.to/436D4Gf</p>
+  <p>📦 Product link: <a href="https://amzn.to/436D4Gf" target="_blank">https://amzn.to/436D4Gf</a></p>
 
   <h2>💧 Marshmallow Root Extract (Botanic Choice)</h2>
   <img src="marshmallow.jpg" alt="Marshmallow Root">
-  <p><strong>→ Key Benefits:</strong></p>
   <ul>
     <li>Coats and soothes mucous membranes</li>
     <li>Helps with leaky gut and digestive inflammation</li>
     <li>Can soothe sore throats and respiratory irritation</li>
   </ul>
   <p><strong>Why it matters for autism:</strong> Supports intestinal healing and helps reduce systemic inflammation.</p>
-  <p>📦 Product link: https://amzn.to/45fXIVE</p>
+  <p>📦 Product link: <a href="https://amzn.to/45fXIVE" target="_blank">https://amzn.to/45fXIVE</a></p>
 
   <h2>🌿 Cilantro Tincture (HERBIFY)</h2>
   <img src="cilantro.jpg" alt="Cilantro Tincture">
-  <p><strong>→ Key Benefits:</strong></p>
   <ul>
     <li>Mobilizes heavy metals from tissues (especially brain tissue)</li>
     <li>Antioxidant and chelation support</li>
     <li>Often paired with chlorella to bind and remove toxins</li>
   </ul>
   <p><strong>Why it matters for autism:</strong> Cilantro may cross the blood-brain barrier and help release toxins that affect cognition.</p>
-  <p>📦 Product link: https://amzn.to/3H35TL9</p>
+  <p>📦 Product link: <a href="https://amzn.to/3H35TL9" target="_blank">https://amzn.to/3H35TL9</a></p>
 
   <h2>🧠 Fish Oil (Carlson Very Finest)</h2>
   <img src="fishoil.jpg" alt="Fish Oil">
-  <p><strong>→ Key Benefits:</strong></p>
   <ul>
     <li>High-dose omega-3 fatty acids (EPA + DHA)</li>
     <li>Supports brain development, attention span, and mood regulation</li>
     <li>Reduces systemic inflammation</li>
   </ul>
   <p><strong>Why it matters for autism:</strong> Helps support language development and emotional stability.</p>
-  <p>📦 Product link: https://amzn.to/44Qnu2R</p>
+  <p>📦 Product link: <a href="https://amzn.to/44Qnu2R" target="_blank">https://amzn.to/44Qnu2R</a></p>
 
   <h2>🌊 Sea Moss Gel (TrueSeaMoss)</h2>
   <img src="seamoss.jpg" alt="Sea Moss Gel">
-  <p><strong>→ Key Benefits:</strong></p>
   <ul>
     <li>Contains 92+ trace minerals, including iodine, zinc, selenium</li>
     <li>Supports thyroid health, gut lining, and immune regulation</li>
     <li>Natural source of prebiotics and anti-inflammatory compounds</li>
   </ul>
   <p><strong>Why it matters for autism:</strong> Mineral deficiencies are common. Sea moss replenishes essential nutrients and supports detox pathways.</p>
-  <p>📦 Product link: https://amzn.to/3SJruL2</p>
+  <p>📦 Product link: <a href="https://amzn.to/3SJruL2" target="_blank">https://amzn.to/3SJruL2</a></p>
 
   <h2>🔄 Cortisol Calm Drops</h2>
   <img src="cortisol.jpg" alt="Cortisol Supplement">
-  <p><strong>→ Key Ingredients:</strong> Magnesium Glycinate, Ashwagandha, L-Theanine, Phosphatidylserine</p>
   <ul>
     <li><strong>Magnesium Glycinate:</strong> Calms nervous system, improves sleep and reduces tension</li>
     <li><strong>Ashwagandha:</strong> Reduces cortisol, supports calm and emotional regulation</li>
@@ -142,7 +128,7 @@ full_html = """<!DOCTYPE html>
     <li><strong>Phosphatidylserine:</strong> Supports memory and cortisol regulation</li>
   </ul>
   <p><strong>Why it matters for autism:</strong> Helps regulate stress hormones that often worsen sleep, mood, and sensory symptoms.</p>
-  <p>📦 Product link: https://amzn.to/4dpShWo</p>
+  <p>📦 Product link: <a href="https://amzn.to/4dpShWo" target="_blank">https://amzn.to/4dpShWo</a></p>
 
   <hr>
   <p><em>⚠️ Always consult with your child's pediatrician, integrative physician, or functional medicine provider before introducing any new supplement. Detox protocols, especially involving cilantro and chlorella, should be approached gradually and with guidance.</em></p>
@@ -150,10 +136,3 @@ full_html = """<!DOCTYPE html>
   <p>Want more guides like this? Check out our <a href="#">Resources page</a> or follow us on <a href="#">Instagram</a> for daily tips on supporting autistic children with love, science, and soul.</p>
 </body>
 </html>
-"""
-
-# Save updated HTML
-with open(html_file, "w") as f:
-    f.write(full_html)
-
-html_file.name
